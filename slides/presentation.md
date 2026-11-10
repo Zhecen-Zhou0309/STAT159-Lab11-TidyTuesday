@@ -36,3 +36,11 @@ Which city has the most green area per capita in each year?
 5. Use `idxmax()` to identify the highest value in each year.
 
 ---
+
+## Results: Top City by Year
+
+![Cities with Highest Green Area Per Capita](green_space_top_cities.png)
+
+**Key Observation:** Fāqūs ranked first in 2000, 2010, and 2020.
+
+---
