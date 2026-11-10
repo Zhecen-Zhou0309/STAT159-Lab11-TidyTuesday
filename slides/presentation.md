@@ -20,3 +20,19 @@ TidyTuesday Dataset — September 22, 2026
 - Key variable: Green Area Per Capita (m²)
 
 ---
+
+## Research Question & Methodology
+
+**Research Question**
+
+Which city has the most green area per capita in each year?
+
+**Methodology**
+
+1. Load the TidyTuesday dataset using Pandas.
+2. Check missing values and duplicate observations.
+3. Remove records with missing values in key variables.
+4. Group observations by year using `groupby()`.
+5. Use `idxmax()` to identify the highest value in each year.
+
+---
