@@ -9,3 +9,6 @@ venv/
 .myst/
 _site/
 _build/
+
+# MyST build outputs
+_build

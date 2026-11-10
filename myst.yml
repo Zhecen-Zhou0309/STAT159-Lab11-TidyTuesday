@@ -1,0 +1,16 @@
+version: 1
+
+project:
+  id: 40c9449a-3087-46ad-a03f-3997ab70cf36
+  title: Urban Green Space Analysis
+  description: STAT 159 Lab 11 - Urban Green Space Analysis using TidyTuesday data
+  authors:
+    - name: Zhecen Zhou
+  github: https://github.com/Zhecen-Zhou0309/STAT159-Lab11-TidyTuesday
+
+  toc:
+    - file: notebooks/analysis_zhecen.ipynb
+
+site:
+  template: book-theme
+  title: Urban Green Space Analysis
