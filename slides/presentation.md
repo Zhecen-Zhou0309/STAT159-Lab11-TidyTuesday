@@ -44,3 +44,25 @@ Which city has the most green area per capita in each year?
 **Key Observation:** Fāqūs ranked first in 2000, 2010, and 2020.
 
 ---
+
+## Key Findings & Conclusion
+
+### Key Findings
+
+- **Fāqūs (Faqous)** ranked first in 2000, 2010, and 2020.
+- The highest observed green area per capita decreased from **78.97 m² (1990)** to **57.47 m² (2025)**.
+- The top-ranked city changed across the five observed years.
+
+### Conclusion
+
+Urban green space availability varies across cities and years.
+
+However, the decline in annual maximum values does not necessarily indicate an overall decline in urban green space.
+
+### Limitations
+
+- Missing observations may affect the rankings.
+- Only five years are available for comparison.
+
+---
+
