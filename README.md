@@ -2,9 +2,11 @@
 
 This repository is for UC Berkeley STAT 159/259 Lab 11. Our dataset is the [September 22, 2026 TidyTuesday urban green space dataset](https://github.com/rfordatascience/tidytuesday/tree/main/data/2026/2026-09-22).
 
-## Team
-- Zhecen Zhou
-- Teammate: TBD
+## Author
+
+**Zhecen Zhou**
+
+UC Berkeley — STAT 159/259
 
 ## Dataset
 - **Topic:** Average share of green areas across cities
@@ -19,20 +21,30 @@ City-level measurements include green area per capita (square meters) and green 
 2. Which city has lost the largest percentage of its green area since 1990?
 3. Which city has gained the largest percentage of green area since 1990?
 
-**Tentative Part II split:**
-- Zhecen: Question 1 — highest green area per capita in each year
-- Teammate: Question 2 or 3 — change in green area since 1990
+## Research Question
+
+Which city has the most green area per capita in each year?
+
+## Analysis Workflow
+
+1. Load and explore the TidyTuesday dataset.
+2. Check data quality and handle missing values.
+3. Identify the city with the highest green area per capita for each year.
+4. Visualize the results using Matplotlib.
+5. Publish the analysis using MyST and GitHub Pages.
+6. Present the findings using RevealJS.
 
 ## Structure
 - `data/`: dataset source and access instructions
 - `notebooks/`: individual analyses
 - `slides/`: presentation files
 
-## Remaining Lab 11 tasks
-1. Each teammate answers one question from the source README.
-2. Build a MyST website.
-3. Deploy to GitHub Pages with GitHub Actions (`myst init --gh-pages`).
-4. Prepare RevealJS slides and present findings.
+## Project Components
+
+- Data analysis: `notebooks/analysis_zhecen.ipynb`
+- MyST website: `myst.yml`
+- GitHub Pages deployment: `.github/workflows/deploy.yml`
+- RevealJS presentation: `slides/presentation.md`
 
 ## Credits
 Data: [UN-Habitat](https://data.unhabitat.org/pages/open-spaces-and-green-areas). TidyTuesday curation: Gabriela Palomo-Munoz.
